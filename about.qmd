@@ -1,9 +1,23 @@
 ---
-title: "About"
+title: "Sririthvik Bellala"
+about:
+  template: jolla
+  links: 
+    - text: Github
+      icon: github
+      href: https://github.com/srbellala
+    - text: Bootcamp
+      icon: envelope
+      href: https://bootcamp.davidkane.info/
+
 ---
 
-About this site
+## About Me 
 
-```{r}
-1 + 1
-```
+Hi, I am Sririthvik Bellala
+I am a rising senior at Metea Valley High School, interested in Data Science. In my free time I like to watch movies and go outside. 
+
+If you have any questions about this project, please feel free to email me at 
+
+srbellala@gmail.com 
+

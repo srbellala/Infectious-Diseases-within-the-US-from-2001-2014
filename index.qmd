@@ -1,11 +1,8 @@
 ---
-title: "infectious-diseases"
-execute:
-  echo: FALSE
+title: "What is the probability that more than 5 males conract E. Coli"
+execute: 
+  echo: false 
 ---
-
-## Focus Question
-What is the probability that more than 5 people contract E Coli. 
 
 ```{r}
 #| message: FALSE 
@@ -13,6 +10,17 @@ library(tidyverse)
 library(ggthemes)
 library(plotly)
 library(rstanarm)
+library(ggthemr)
+ggthemr("fresh")
+lighten_swatch(amount = .1)
+```
+
+
+```{r}
 read_rds("Model.rds")
 ```
 
+## Analysis 
+There is a small amount of males living within the united states with a chance of contracting E. Coli, as the majority of males are not often in contact with a carrier. 
+
+This decease can be attributed to better hygienic practices, better cooking materials, and a focus on water quality. 

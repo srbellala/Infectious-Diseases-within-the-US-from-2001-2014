@@ -1,0 +1,39 @@
+---
+title: "Patterns of Infectious Disease Outbreaks"
+editor: source
+execute: 
+  echo: false
+---
+
+## Project Summary
+
+Infectious diseases are illnesses caused by pathogenic microorganisms, such as viruses, bacteria, fungi, and parasites, that can spread from one person to another through various modes of transmission, including direct contact, droplets, airborne particles, and contaminated food or water. This project uses data mainly from the author Jahaidul Islam to examine patterns in infectious disease outbreaks in America from 2001-2014, focusing on E.Coli, Malaria, and HIV
+
+#### The plot below introduces outbreak data  
+
+## E. Coli, Malaria, HIV Infections
+
+Males were infected more across all three diseases: E.Coli, Malaria, HIV
+
+```{r}
+#| message: false 
+library(tidyverse)
+library(ggthemes)
+library(plotly)
+library(rstanarm)
+library(ggplot2)
+library(ggthemr)
+ggthemr("fresh")
+lighten_swatch(amount = .1)
+```
+
+```{r}
+read_rds("Model1.rds")
+```
+
+
+
+
+
+
+

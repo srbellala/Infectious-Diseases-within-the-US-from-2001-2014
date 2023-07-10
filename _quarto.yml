@@ -2,12 +2,21 @@ project:
   type: website
 
 website:
-  title: "infectious-diseases"
+  title: "Outcomes of Infectious Diseases from 2001-2014"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - href: Home_Page.qmd
+        text: Home 
+      - text: E. Coli
+        menu:
+          - href: index.qmd
+            text: Graph/Analysis
+          - href: fitted_model_explanation.qmd
+            text: Model Explanation 
+      - href: about.qmd
+        text: About Me
+      - href: Source.qmd
+        text: Sources
 
 format:
   html:

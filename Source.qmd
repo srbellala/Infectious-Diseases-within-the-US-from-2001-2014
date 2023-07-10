@@ -1,0 +1,21 @@
+---
+title: "Transforming Data"
+---
+
+## Data Origin
+
+This data was obtained from the author [Jahaidul Islam](https://www.kaggle.com/jahaidulislam) through the site Kaggle. Kaggle is an online community of data scientists and machine learning engineers, allowing users to find data sets they want.
+
+[Infectious Disease 2001-2014](https://www.kaggle.com/datasets/jahaidulislam/infectious-disease-2001-2014) has been viewed 3332 times and downloaded 583 times.
+
+## Data Transformation
+
+To clean this data for a E. Coli, Bayesian Fitted Model , I selected variables I was most likely to employ
+
++--------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------+-------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+| Disease                                                                                                                        | Count                                                              | Year                                                                    | Sex                                                                                                                              |
++:===============================================================================================================================+:===================================================================+:========================================================================+:=================================================================================================================================+
+| -   Since this model focused on E. Coli, I filtered the data set so only instances with E. Coli were included in the data set. | -   This model did not need any filtering with the variable count. | -   To make it easier to understand, the data set was filtered by year. | -   In the Sex Column, this data set also included a variable named Total. Total was the sum of the count for males and females. |
+|                                                                                                                                |                                                                    |                                                                         |                                                                                                                                  |
+|                                                                                                                                |                                                                    |                                                                         | -   I removed this to avoid confusion when making a fitted model and plot.                                                       |
++--------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------+-------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+

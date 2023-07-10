@@ -1,0 +1,38 @@
+---
+title: "Infection Bayesian Model"
+editor: source
+execute:
+  echo: FALSE
+---
+```{r}
+#| message: False
+library(tidyverse)
+library(ggthemes)
+library(plotly)
+library(rstanarm)
+library(gtsummary)
+library(ggthemr)
+ggthemr("fresh")
+lighten_swatch(amount = .1)
+```
+
+## Model Defintion
+
+$$\Large y_i = \epsilon_i  + \beta_1 x_{1,i}$$ with $y = Infected~Count$ and $x_1 = Sex$.
+
+## Parameters 
+```{r}
+read_rds("Table.rds")
+```
+
+On the-left hand side of the Model Definition the outcome is defined as the Infected Count, the variable to be explained. 
+
+The right hand side of the model incorporates two parts, what we know and what we don't know. 
+
+$$\Large \epsilon_i  + \beta_1 x_{1,i}$$
+
+$\Large \epsilon_i~$ describes the inexplicable factors in our outcome, including any affects that have an influence on a person's ability to contract E.Coli, but are not related to the person's sex. 
+
+$\Large \beta_1 x_{1,i}~$ consists of the parameter, Sex, and the respective data points.
+
+

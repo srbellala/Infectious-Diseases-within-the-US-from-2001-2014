@@ -1,23 +1,86 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "infectious-diseases",
-    "section": "",
-    "text": "What is the probability that more than 5 people contract E Coli.\n\n\nWarning: package 'plotly' was built under R version 4.3.1\n\n\nWarning: package 'rstanarm' was built under R version 4.3.1"
-  },
-  {
-    "objectID": "index.html#focus-question",
-    "href": "index.html#focus-question",
-    "title": "infectious-diseases",
-    "section": "",
-    "text": "What is the probability that more than 5 people contract E Coli.\n\n\nWarning: package 'plotly' was built under R version 4.3.1\n\n\nWarning: package 'rstanarm' was built under R version 4.3.1"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Sririthvik Bellala",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Hi, I am Sririthvik Bellala I am a rising senior at Metea Valley High School, interested in Data Science. In my free time I like to watch movies and go outside.\nIf you have any questions about this project, please feel free to email me at\nsrbellala@gmail.com"
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "Sririthvik Bellala",
+    "section": "",
+    "text": "Hi, I am Sririthvik Bellala I am a rising senior at Metea Valley High School, interested in Data Science. In my free time I like to watch movies and go outside.\nIf you have any questions about this project, please feel free to email me at\nsrbellala@gmail.com"
+  },
+  {
+    "objectID": "fitted_model_explanation.html",
+    "href": "fitted_model_explanation.html",
+    "title": "Infection Bayesian Model",
+    "section": "",
+    "text": "\\[\\Large y_i = \\epsilon_i  + \\beta_1 x_{1,i}\\] with \\(y = Infected~Count\\) and \\(x_1 = Sex\\)."
+  },
+  {
+    "objectID": "fitted_model_explanation.html#model-defintion",
+    "href": "fitted_model_explanation.html#model-defintion",
+    "title": "Infection Bayesian Model",
+    "section": "",
+    "text": "\\[\\Large y_i = \\epsilon_i  + \\beta_1 x_{1,i}\\] with \\(y = Infected~Count\\) and \\(x_1 = Sex\\)."
+  },
+  {
+    "objectID": "fitted_model_explanation.html#parameters",
+    "href": "fitted_model_explanation.html#parameters",
+    "title": "Infection Bayesian Model",
+    "section": "Parameters",
+    "text": "Parameters\n\n\n\n\n\n\n  \n    \n    \n      Characteristic\n      exp(Beta)\n      95% CI1\n    \n  \n  \n    Sex\n\n\n        Female\n2.34\n2.12, 2.56\n        Male\n2.08\n1.87, 2.30\n  \n  \n  \n    \n      1 CI = Credible Interval\n    \n  \n\n\n\n\nOn the-left hand side of the Model Definition the outcome is defined as the Infected Count, the variable to be explained.\nThe right hand side of the model incorporates two parts, what we know and what we don’t know.\n\\[\\Large \\epsilon_i  + \\beta_1 x_{1,i}\\]\n\\(\\Large \\epsilon_i~\\) describes the inexplicable factors in our outcome, including any affects that have an influence on a person’s ability to contract E.Coli, but are not related to the person’s sex.\n\\(\\Large \\beta_1 x_{1,i}~\\) consists of the parameter, Sex, and the respective data points."
+  },
+  {
+    "objectID": "Home_Page.html",
+    "href": "Home_Page.html",
+    "title": "Patterns of Infectious Disease Outbreaks",
+    "section": "",
+    "text": "Infectious diseases are illnesses caused by pathogenic microorganisms, such as viruses, bacteria, fungi, and parasites, that can spread from one person to another through various modes of transmission, including direct contact, droplets, airborne particles, and contaminated food or water. This project uses data mainly from the author Jahaidul Islam to examine patterns in infectious disease outbreaks in America from 2001-2014, focusing on E.Coli, Malaria, and HIV"
+  },
+  {
+    "objectID": "Home_Page.html#project-summary",
+    "href": "Home_Page.html#project-summary",
+    "title": "Patterns of Infectious Disease Outbreaks",
+    "section": "",
+    "text": "Infectious diseases are illnesses caused by pathogenic microorganisms, such as viruses, bacteria, fungi, and parasites, that can spread from one person to another through various modes of transmission, including direct contact, droplets, airborne particles, and contaminated food or water. This project uses data mainly from the author Jahaidul Islam to examine patterns in infectious disease outbreaks in America from 2001-2014, focusing on E.Coli, Malaria, and HIV"
+  },
+  {
+    "objectID": "Home_Page.html#e.-coli-malaria-hiv-infections",
+    "href": "Home_Page.html#e.-coli-malaria-hiv-infections",
+    "title": "Patterns of Infectious Disease Outbreaks",
+    "section": "E. Coli, Malaria, HIV Infections",
+    "text": "E. Coli, Malaria, HIV Infections\nMales were infected more across all three diseases: E.Coli, Malaria, HIV"
+  },
+  {
+    "objectID": "index.html#analysis",
+    "href": "index.html#analysis",
+    "title": "What is the probability that more than 5 males conract E. Coli",
+    "section": "Analysis",
+    "text": "Analysis\nThere is a small amount of males living within the united states with a chance of contracting E. Coli, as the majority of males are not often in contact with a carrier.\nThis decease can be attributed to better hygienic practices, better cooking materials, and a focus on water quality."
+  },
+  {
+    "objectID": "Source.html",
+    "href": "Source.html",
+    "title": "Transforming Data",
+    "section": "",
+    "text": "This data was obtained from the author Jahaidul Islam through the site Kaggle. Kaggle is an online community of data scientists and machine learning engineers, allowing users to find data sets they want.\nInfectious Disease 2001-2014 has been viewed 3332 times and downloaded 583 times."
+  },
+  {
+    "objectID": "Source.html#data-origin",
+    "href": "Source.html#data-origin",
+    "title": "Transforming Data",
+    "section": "",
+    "text": "This data was obtained from the author Jahaidul Islam through the site Kaggle. Kaggle is an online community of data scientists and machine learning engineers, allowing users to find data sets they want.\nInfectious Disease 2001-2014 has been viewed 3332 times and downloaded 583 times."
+  },
+  {
+    "objectID": "Source.html#data-transformation",
+    "href": "Source.html#data-transformation",
+    "title": "Transforming Data",
+    "section": "Data Transformation",
+    "text": "Data Transformation\nTo clean this data for a E. Coli, Bayesian Fitted Model , I selected variables I was most likely to employ\n\n\n\n\n\n\n\n\n\nDisease\nCount\nYear\nSex\n\n\n\n\n\nSince this model focused on E. Coli, I filtered the data set so only instances with E. Coli were included in the data set.\n\n\nThis model did not need any filtering with the variable count.\n\n\nTo make it easier to understand, the data set was filtered by year.\n\n\nIn the Sex Column, this data set also included a variable named Total. Total was the sum of the count for males and females.\nI removed this to avoid confusion when making a fitted model and plot."
   }
 ]
