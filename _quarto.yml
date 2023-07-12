@@ -5,14 +5,16 @@ website:
   title: "Outcomes of Infectious Diseases from 2001-2014"
   navbar:
     left:
-      - href: Home_Page.qmd
+      - href: index.qmd
         text: Home 
-      - text: E. Coli
-        menu:
-          - href: index.qmd
-            text: Graph/Analysis
-          - href: fitted_model_explanation.qmd
-            text: Model Explanation 
+      - href: fitted_model_explanation.qmd
+        text: Bayesian Model
+      - href: HIV.qmd
+        text: HIV 
+      - href: Malaria.qmd
+        text: Malaria
+      - href: E.coli.qmd
+        text: E. Coli 
       - href: about.qmd
         text: About Me
       - href: Source.qmd

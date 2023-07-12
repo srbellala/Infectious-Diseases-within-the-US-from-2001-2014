@@ -18,14 +18,14 @@
     "href": "fitted_model_explanation.html",
     "title": "Infection Bayesian Model",
     "section": "",
-    "text": "\\[\\Large y_i = \\epsilon_i  + \\beta_1 x_{1,i}\\] with \\(y = Infected~Count\\) and \\(x_1 = Sex\\)."
+    "text": "\\[\\Large y_i = \\epsilon_i + \\beta_1 x_{1,i}\\] with \\(y = Infected~Count\\), \\(\\epsilon_i = Unkown~Values)\\), and \\(x_1 = Sex\\)."
   },
   {
     "objectID": "fitted_model_explanation.html#model-defintion",
     "href": "fitted_model_explanation.html#model-defintion",
     "title": "Infection Bayesian Model",
     "section": "",
-    "text": "\\[\\Large y_i = \\epsilon_i  + \\beta_1 x_{1,i}\\] with \\(y = Infected~Count\\) and \\(x_1 = Sex\\)."
+    "text": "\\[\\Large y_i = \\epsilon_i + \\beta_1 x_{1,i}\\] with \\(y = Infected~Count\\), \\(\\epsilon_i = Unkown~Values)\\), and \\(x_1 = Sex\\)."
   },
   {
     "objectID": "fitted_model_explanation.html#parameters",
@@ -35,32 +35,18 @@
     "text": "Parameters\n\n\n\n\n\n\n  \n    \n    \n      Characteristic\n      exp(Beta)\n      95% CI1\n    \n  \n  \n    Sex\n\n\n        Female\n2.34\n2.12, 2.56\n        Male\n2.08\n1.87, 2.30\n  \n  \n  \n    \n      1 CI = Credible Interval\n    \n  \n\n\n\n\nOn the-left hand side of the Model Definition the outcome is defined as the Infected Count, the variable to be explained.\nThe right hand side of the model incorporates two parts, what we know and what we don’t know.\n\\[\\Large \\epsilon_i  + \\beta_1 x_{1,i}\\]\n\\(\\Large \\epsilon_i~\\) describes the inexplicable factors in our outcome, including any affects that have an influence on a person’s ability to contract E.Coli, but are not related to the person’s sex.\n\\(\\Large \\beta_1 x_{1,i}~\\) consists of the parameter, Sex, and the respective data points."
   },
   {
-    "objectID": "Home_Page.html",
-    "href": "Home_Page.html",
-    "title": "Patterns of Infectious Disease Outbreaks",
-    "section": "",
-    "text": "Infectious diseases are illnesses caused by pathogenic microorganisms, such as viruses, bacteria, fungi, and parasites, that can spread from one person to another through various modes of transmission, including direct contact, droplets, airborne particles, and contaminated food or water. This project uses data mainly from the author Jahaidul Islam to examine patterns in infectious disease outbreaks in America from 2001-2014, focusing on E.Coli, Malaria, and HIV"
-  },
-  {
-    "objectID": "Home_Page.html#project-summary",
-    "href": "Home_Page.html#project-summary",
-    "title": "Patterns of Infectious Disease Outbreaks",
-    "section": "",
-    "text": "Infectious diseases are illnesses caused by pathogenic microorganisms, such as viruses, bacteria, fungi, and parasites, that can spread from one person to another through various modes of transmission, including direct contact, droplets, airborne particles, and contaminated food or water. This project uses data mainly from the author Jahaidul Islam to examine patterns in infectious disease outbreaks in America from 2001-2014, focusing on E.Coli, Malaria, and HIV"
-  },
-  {
-    "objectID": "Home_Page.html#e.-coli-malaria-hiv-infections",
-    "href": "Home_Page.html#e.-coli-malaria-hiv-infections",
-    "title": "Patterns of Infectious Disease Outbreaks",
-    "section": "E. Coli, Malaria, HIV Infections",
-    "text": "E. Coli, Malaria, HIV Infections\nMales were infected more across all three diseases: E.Coli, Malaria, HIV"
-  },
-  {
     "objectID": "index.html#analysis",
     "href": "index.html#analysis",
-    "title": "What is the probability that more than 5 males conract E. Coli",
+    "title": "Patterns of Infectious Disease Outbreaks",
     "section": "Analysis",
-    "text": "Analysis\nThere is a small amount of males living within the united states with a chance of contracting E. Coli, as the majority of males are not often in contact with a carrier.\nThis decease can be attributed to better hygienic practices, better cooking materials, and a focus on water quality."
+    "text": "Analysis\nWhen comparing males and females, females are generally less likely to contract E. coli infections. This is evident from the stark contrast in the graph, which it shows a higher probability of males contracting E. coli. However, it’s important to note that the overall incidence of E. coli infections is quite low, with only a very small percentage of the population being affected in the United States.\nThese reassuring trends can be attributed to positive developments in recent years that have reduced the worry associated with certain strains of E. Coli. One key factor is the improvement in food safety practices. Stricter regulations, better hygiene practices, and enhanced monitoring systems have been implemented to prevent E. coli contamination in food and water sources. These measures have significantly reduced the risk of exposure to harmful bacteria. Additionally, there has been a greater emphasis on surveillance and outbreak response. Public health agencies have implemented more effective systems to detect and respond to E. coli outbreaks promptly. This includes quick identification of contaminated food sources, early detection of cases, and thorough investigations to prevent further spread."
+  },
+  {
+    "objectID": "index.html#project-summary",
+    "href": "index.html#project-summary",
+    "title": "Patterns of Infectious Disease Outbreaks",
+    "section": "Project Summary",
+    "text": "Project Summary\nInfectious diseases are illnesses caused by pathogenic microorganisms, such as viruses, bacteria, fungi, and parasites, that can spread from one person to another through various modes of transmission, including direct contact, droplets, airborne particles, and contaminated food or water. This project uses data mainly from the author Jahaidul Islam to examine patterns in infectious disease outbreaks in America from 2001-2014, focusing on E.Coli, Malaria, and HIV"
   },
   {
     "objectID": "Source.html",

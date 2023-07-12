@@ -1,26 +1,38 @@
 ---
-title: "What is the probability that more than 5 males conract E. Coli"
+title: "Patterns of Infectious Disease Outbreaks"
+editor: source
 execute: 
-  echo: false 
+  echo: false
 ---
-
-```{r}
-#| message: FALSE 
+```{r Loading Libaries}
+#| message: false 
 library(tidyverse)
 library(ggthemes)
 library(plotly)
 library(rstanarm)
+library(ggplot2)
 library(ggthemr)
 ggthemr("fresh")
 lighten_swatch(amount = .1)
 ```
 
+## What is the probability that more than 5 Females and Males contract E. Coli in 2023?
 
-```{r}
+```{r Reading Rds File}
 read_rds("Model.rds")
 ```
 
 ## Analysis 
-There is a small amount of males living within the united states with a chance of contracting E. Coli, as the majority of males are not often in contact with a carrier. 
 
-This decease can be attributed to better hygienic practices, better cooking materials, and a focus on water quality. 
+When comparing males and females, females are generally less likely to contract E. coli infections. This is evident from the stark contrast in the graph, which it shows a higher probability of males contracting E. coli. However, it's important to note that the overall incidence of E. coli infections is quite low, with only a very small percentage of the population being affected in the United States.
+
+
+These reassuring trends can be attributed to positive developments in recent years that have reduced the worry associated with certain strains of E. Coli. One key factor is the improvement in food safety practices. Stricter regulations, better hygiene practices, and enhanced monitoring systems have been implemented to prevent E. coli contamination in food and water sources. These measures have significantly reduced the risk of exposure to harmful bacteria. Additionally, there has been a greater emphasis on surveillance and outbreak response. Public health agencies have implemented more effective systems to detect and respond to E. coli outbreaks promptly. This includes quick identification of contaminated food sources, early detection of cases, and thorough investigations to prevent further spread. 
+
+## Project Summary
+
+Infectious diseases are illnesses caused by pathogenic microorganisms, such as viruses, bacteria, fungi, and parasites, that can spread from one person to another through various modes of transmission, including direct contact, droplets, airborne particles, and contaminated food or water. This project uses data mainly from the author Jahaidul Islam to examine patterns in infectious disease outbreaks in America from 2001-2014, focusing on E.Coli, Malaria, and HIV
+
+
+
+

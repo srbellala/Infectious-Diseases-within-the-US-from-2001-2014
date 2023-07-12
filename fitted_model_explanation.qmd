@@ -4,7 +4,7 @@ editor: source
 execute:
   echo: FALSE
 ---
-```{r}
+```{r Loading Libaries}
 #| message: False
 library(tidyverse)
 library(ggthemes)
@@ -18,10 +18,10 @@ lighten_swatch(amount = .1)
 
 ## Model Defintion
 
-$$\Large y_i = \epsilon_i  + \beta_1 x_{1,i}$$ with $y = Infected~Count$ and $x_1 = Sex$.
+$$\Large y_i = \epsilon_i + \beta_1 x_{1,i}$$ with $y = Infected~Count$, $\epsilon_i = Unkown~Values)$, and $x_1 = Sex$.
 
 ## Parameters 
-```{r}
+```{r Reading Rds File}
 read_rds("Table.rds")
 ```
 

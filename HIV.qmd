@@ -1,0 +1,23 @@
+---
+title: "Analysis"
+editor: source
+execute: 
+  echo: False 
+---
+
+```{r Loading Libaries}
+#| message: FALSE 
+library(tidyverse)
+library(ggthemes)
+library(plotly)
+library(rstanarm)
+library(shiny)
+library(ggthemr)
+ggthemr("fresh")
+darken_swatch(amount = 0.1)
+```
+
+```{r Reading Rds Files}
+read_rds("HIV_FM.rds")
+```
+
